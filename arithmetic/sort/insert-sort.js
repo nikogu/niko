@@ -15,7 +15,7 @@ function InsertSort ( array ) {
 		var i = j-1;
 
 		//如果还有比较元素 而且 前面的元素还是大于新插入的元素值(需要改变顺序，小的放前面)
-		while ( i<=0 && newArray[i] > key ) {
+		while ( i>=0 && newArray[i] > key ) {
 			//把大的依次往后推
 			newArray[i+1] = newArray[i];
 			//对比下一次
@@ -26,5 +26,8 @@ function InsertSort ( array ) {
 		newArray[i+1] = key;
 
 	}
+
+	//返回新数组
+	return newArray;
 
 }
