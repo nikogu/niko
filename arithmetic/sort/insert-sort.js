@@ -1,4 +1,11 @@
-//插入排序
+/**
+** @author: niko
+** @propuse: 插入排序
+** @date: 2012.9.23
+**
+**/
+
+//插入排序开始
 function InsertSort ( array ) {
 
 	//接受一个数组，并且复制它
