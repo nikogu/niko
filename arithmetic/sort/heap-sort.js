@@ -24,6 +24,8 @@ function heapSort ( array ) {
 		var temp = array[1];
 		array[1] = array[i];
 		array[i] = temp;
+		
+		heapSize--；
 
 		//更新
 		maxHeapify( array, 1 );
@@ -39,7 +41,7 @@ function heapSort ( array ) {
 function buildMaxHeap ( array ) {
 
 	//得到堆的个数
-	var heapSize = array.length-1;
+	heapSize = array.length-1;
 
 	//建立堆
 	for ( var i = Math.floor( ( array.length-1 ) / 2 ); i>0; i-- ) {
