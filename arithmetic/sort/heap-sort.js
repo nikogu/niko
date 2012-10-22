@@ -25,7 +25,7 @@ function heapSort ( array ) {
 		array[1] = array[i];
 		array[i] = temp;
 		
-		heapSize--；
+		heapSize--;
 
 		//更新
 		maxHeapify( array, 1 );
