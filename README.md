@@ -16,7 +16,14 @@
   * Wordpress Theme
     + invade
       书评主题源码
-  
+
+      ###主题说明
+      invade是基于wordpress和[themejunkie](http://www.themejunkie.com/)PHP Framework开发的wordpress主题，php的东西就不说了。
+      前端主要是基于seajs+less的架构搭建（其实这个里面占时没用到多少js）
+      本主题里面的文件有些乱（因为历史原因），但是基本上可以扩展和使用
+      本主题是不支持老实浏览器滴，用了大量CSS3和HTML5的东东，所以很轻松就过了W3C上CSS3和HTML5的验证
+      有兴趣的同学可以下来看看=。=
+
 
 ## 名字来源
 
