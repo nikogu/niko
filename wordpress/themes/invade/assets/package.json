@@ -1,0 +1,17 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "1.7.2",
+    "modernizr": "modernizr"
+  },
+  "root": "",
+  "output": {
+    "main.js": "."
+  },
+  "spmConfig": {
+    "build": {
+      "to": "sea-modules/{{name}}/{{version}}"
+    }
+  }
+}
